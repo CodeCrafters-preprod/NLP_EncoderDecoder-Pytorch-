@@ -110,4 +110,4 @@ Test Accuracy: 93.42%
 Tanisha Priya	              Model Training and Evaluation
 Prachi Tavse	              Encoder
 Harshita Jangde	              Decoder
-Khushboo Mittal	              Data Loading and Cleaning, Tokenization, Stopwords Removal, Stemming, and Lemmatization
+Khushboo Mittal	              Data Preprocessing and tokenization
