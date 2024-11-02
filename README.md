@@ -62,16 +62,12 @@ The Adam optimizer is used to update model parameters. It combines the advantage
 
 # Data Preparation
 
-- Load Dataset: The Twitter sentiment dataset is loaded and preprocessed.
-- Preprocessing:
-Remove stopwords, punctuation, and lowercase all text.
-Perform tokenization, stemming, and lemmatization.
-- Encoding Sentiment Labels: Encode the sentiment labels into integers:
-Positive = 1
-Negative = 0
-Neutral = 2
-Irrelevant = 3
-- Vectorization: TF-IDF and Word2Vec embeddings are used to represent the text for training.
+- **Load Dataset**: The Twitter sentiment dataset is loaded from a CSV file, including columns for tweet content and sentiment labels.
+- **Preprocessing**: Basic preprocessing steps include removing missing values and ensuring the tweet content is of string type.
+- **Encoding Sentiment Labels**: Sentiment labels are encoded into integers: Positive = 1, Negative = 0, Neutral = 2, Irrelevant = 3.
+- **Train-Test Split**: The dataset is split into training (70%), validation (15%), and test (15%) sets for model evaluation.
+- **Tokenization and Vocabulary**: Tweets are tokenized using `torchtext`, and a vocabulary is created for numerical representation.
+- **DataLoader Preparation**: A custom dataset class is defined, and DataLoaders are set up for batching and shuffling the data during training.
 
 # Training and Evaluation
 
