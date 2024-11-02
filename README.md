@@ -132,7 +132,7 @@ Test Accuracy: 93.42%
 
 | Contributor      | Role/Responsibilities                                       |
 |------------------|-------------------------------------------------------------|
-| **Khushboo Mittal**       | Data preprocessing, Tokenization |
+| **Khushboo Mittal**       | Data Loading and Preprocessing, Tokenization and Vocablary Building|
 | **Prachi Tavse**                |Encoder (Embedding, GRU for Hidden State Generation) |
 | **Harshita Jangde**                |Decoder (Embedding, GRU, FC Output) and Seq2Seq (Encoder-Decoder Integration) |
 | **Tanisha Priya**                | Initialize Model, Train, and Evaluate Accuracy with Classification Report |
