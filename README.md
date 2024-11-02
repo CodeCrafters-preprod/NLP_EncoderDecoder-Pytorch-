@@ -25,7 +25,6 @@ The dataset consists of tweets with the following columns:
 
 ## Installation
 Make sure to have the following libraries installed:
-```bash
 `pip install pandas scikit-learn torch torchtext`
 
 # Key Concepts
