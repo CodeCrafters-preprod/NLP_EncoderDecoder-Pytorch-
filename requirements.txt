@@ -1,0 +1,5 @@
+torch==2.0.1  # Ensure compatibility with your device's CUDA version if applicable
+torchtext==0.15.2  # Matches the PyTorch version
+scikit-learn==1.3.0  # For train_test_split, accuracy_score, and classification_report
+pandas==2.0.3  # For data manipulation and preprocessing
+numpy==1.25.2  # For numerical operations (compatible with PyTorch and pandas)
