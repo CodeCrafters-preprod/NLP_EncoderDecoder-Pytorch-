@@ -132,8 +132,9 @@ To run this project, you will need the following Python packages:
 
 The Encoder-Decoder model, trained on the Twitter sentiment dataset, demonstrates strong performance across both the validation and test sets, indicating effective generalization and accurate sentiment classification.
 
-Validation Accuracy: 90.67%
-Test Accuracy: 93.42%
+Training Accuracy: 97.66%
+Validation Accuracy: 89.33%
+Test Accuracy: 90.79%
 (The results may vary a little)
 
 # Contributor	              Role/Responsibilities
