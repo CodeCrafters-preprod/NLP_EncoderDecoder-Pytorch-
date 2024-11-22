@@ -25,7 +25,14 @@ The dataset consists of tweets with the following columns:
 
 ## Installation
 Make sure to have the following libraries installed:
-`pip install pandas scikit-learn torch torchtext`
+torch==2.1.0
+torchtext==0.16.0
+scikit-learn==1.5.0
+pandas==2.2.2
+numpy==1.25.2 
+
+To install these run command:
+`pip install -r requirements.txt`
 
 # Key Concepts
 
@@ -125,6 +132,7 @@ The Encoder-Decoder model, trained on the Twitter sentiment dataset, demonstrate
 
 Validation Accuracy: 90.67%
 Test Accuracy: 93.42%
+(The results may vary a little)
 
 # Contributor	              Role/Responsibilities
 
