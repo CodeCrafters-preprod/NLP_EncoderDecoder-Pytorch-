@@ -22,6 +22,7 @@ The dataset consists of tweets with the following columns:
 - `tweetID`: Unique identifier for each tweet.
 - `sentiment`: Sentiment labels (Positive, Negative, Neutral, Irrelevant).
 - `tweet_content`: The content of the tweet.
+The dataset consists of tweets related to a popular shooter game, where context is key to interpreting sentiment. For instance, words such as kill, typically associated with negative sentiment in other contexts, may be labeled as positive within this domain due to their relevance to the gameplay, as it is labelled such in the dataset.
 
 ## Installation
 Make sure to have the following libraries installed:
@@ -85,7 +86,6 @@ Define the number of epochs and set the model to training mode.
 For each batch, calculate loss, perform backpropagation, and update weights.
 - Evaluation:
 The evaluation function calculates the model’s accuracy and classification report on the validation and test sets.
-python
 
 # Getting Started
 
@@ -130,7 +130,7 @@ To run this project, you will need the following Python packages:
 
 # Results
 
-The Encoder-Decoder model, trained on the Twitter sentiment dataset, demonstrates strong performance across both the validation and test sets, indicating effective generalization and accurate sentiment classification.
+The Encoder-Decoder model, trained on the Twitter sentiment dataset, provides results that may not be the best in terms of real-world accuracy or generalization. However, it serves as an excellent foundation for academic purposes, offering a hands-on learning experience for understanding how the entire NLP Encoder-Decoder architecture functions.
 
 Training Accuracy: 97.66%
 Validation Accuracy: 89.33%
