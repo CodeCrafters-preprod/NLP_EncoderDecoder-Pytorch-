@@ -1,6 +1,6 @@
 # DIY-NLP-EncoderDecoder-PyTorch
 # Business Problem Statement
-In today’s digital world, understanding public sentiment on platforms like Twitter is crucial for businesses to gauge customer opinions and track brand perception. This project aims to develop an NLP pipeline for analyzing Twitter sentiment data, focusing on predicting sentiments about brands, products, and individuals. The solution will incorporate essential NLP techniques like tokenization and sentiment classification, while utilizing advanced deep learning models in PyTorch to enhance prediction accuracy. The goal is to help businesses gain actionable insights into customer sentiment, guiding marketing strategies and decision-making.
+In today’s digital world, understanding public sentiment on platforms like Twitter is crucial for businesses to gauge customer opinions and track brand perception. This project aims to develop an NLP pipeline for analyzing Twitter sentiment data, focusing on predicting sentiments about brands, products, and individuals. The dataset consists of tweets related to a popular shooter game, where context is key to interpreting sentiment. For instance, words such as kill, typically associated with negative sentiment in other contexts, may be labeled as positive within this domain due to their relevance to the gameplay. The solution will incorporate essential NLP techniques like tokenization, contextual sentiment classification, and advanced deep learning models in PyTorch to enhance prediction accuracy.
 
 ## Introduction to NLP Encoder-Decoder Models
 
