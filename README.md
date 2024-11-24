@@ -28,10 +28,15 @@ The dataset consists of tweets related to a popular shooter game, where context 
 ## Installation
 Make sure to have the following libraries installed:
 torch==2.1.0
+
 torchtext==0.16.0
+
 scikit-learn==1.5.0
+
 pandas==2.2.2
+
 numpy==1.25.2 
+
 matplotlib==3.8.2
 
 To install these run command:
@@ -134,8 +139,11 @@ To run this project, you will need the following Python packages:
 The Encoder-Decoder model, trained on the Twitter sentiment dataset, provides results that may not be the best in terms of real-world accuracy or generalization. However, it serves as an excellent foundation for academic purposes, offering a hands-on learning experience for understanding how the entire NLP Encoder-Decoder architecture functions.
 
 Training Accuracy: 97.66%
+
 Validation Accuracy: 89.33%
+
 Test Accuracy: 90.79%
+
 (The results may vary a little)
 
 # Contributor	              Role/Responsibilities
